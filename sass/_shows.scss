@@ -1,0 +1,27 @@
+/*shows*/
+.shows {
+    margin-top: 90px;
+  }
+  
+  .grid__shows {
+    display: grid;
+    grid-template-rows: 150px 150px 150px 150px;
+    padding: 0;
+    margin: auto;
+    margin-top: 60px;
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+    align-content: center;
+    list-style: none;
+  }
+  
+  .s1 {
+    background-color: white;
+    color: black;
+  }
+  
+  .s3 {
+    background-color: white;
+    color: black;
+  }

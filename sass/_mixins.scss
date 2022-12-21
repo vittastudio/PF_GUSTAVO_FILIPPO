@@ -1,0 +1,7 @@
+@mixin listas {
+    color: $color__fondo;
+    text-decoration: none;
+}
+$color__fondo: black;
+$color__tipografia:white;
+$size_h1: 60px;

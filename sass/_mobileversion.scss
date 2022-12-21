@@ -1,0 +1,146 @@
+@media (max-width: 600px) {
+
+header {
+  
+  display: flex;
+  flex-wrap: nowrap;
+  text-align: center;
+}
+
+nav ul li{
+  width: 100%;
+  justify-content: center;
+  font-size: 15px;
+  margin-right: -7px;
+}
+
+   
+  h1 {
+    font-size: 30px;
+    display: flex;
+    width: 100%;
+    text-align: center;
+  }
+ 
+
+/*index*/
+
+  .botones {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 170px 170px;
+    grid-template-rows: 170px 170px;
+    grid-gap: 0.3rem;
+    justify-content: center;
+    align-items: baseline;
+  }
+  .b1 {
+    background-color: white;
+    justify-self: center;
+    text-align: center;
+    align-content: center;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .b2 {
+   background-color: white;
+   justify-self: center;
+   text-align: center;
+   align-content: center;
+   width: 100%;
+   height: 100%;
+  
+  }
+  
+  .b3 {
+   background-color: white;
+   justify-self: center;
+   text-align: center;
+   align-content: center;
+   width: 100%;
+   height: 100%;
+  }
+  
+  .b4 {
+   background-color: white;
+   justify-self: center;
+   text-align: center;
+   align-content: center;
+   width: 100%;
+   height: 100%;
+  }
+
+  
+
+
+  /*discos*/
+  h2 {
+    font-size: 30px;
+  }
+  .discos {
+    justify-content: center;
+    margin-left: 3px;
+    margin-top: 150px;
+  }
+  .tapa {
+    max-width: 200px;
+    max-height: 200px;
+    margin: auto;
+  }
+  .subtitulo {
+    margin-top: 15px;
+  }
+  .lista {
+    margin-top: -15px;
+  }
+
+/*noticias*/
+.news {
+  font-size: 20px;
+}
+
+.n1 {
+  margin-top: 20px;
+}
+
+.n2 {
+  margin-top: 40px;
+}
+
+.n3 {
+  margin-top: 140px;
+  font-size: 30px;
+}
+
+.n4 {
+  margin-top: 140px;
+  font-size: 30px;
+}
+
+/*videos*/
+
+.grid__videos {
+  display: grid;
+  grid-row: 360px 360px;
+  justify-content: center;
+  margin-top: -5px;
+}
+
+iframe {
+  max-width: 360px;
+}
+
+/*shows*/
+.grid__shows {
+  display: grid;
+  grid-row: 150px 150px 150px 150px;
+  padding: 0;
+  margin: auto;
+  margin-top: 60px;
+  width: 100%;
+  font-size: 30px;
+  text-align: center;
+  list-style: none;
+}
+}
