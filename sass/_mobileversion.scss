@@ -3,7 +3,7 @@
 header {
   
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   text-align: center;
 }
 
@@ -20,6 +20,11 @@ nav ul li{
     display: flex;
     width: 100%;
     text-align: center;
+  }
+
+  footer {
+    display: flex;
+    flex-wrap: wrap;  
   }
  
 
@@ -80,13 +85,13 @@ nav ul li{
   }
   .discos {
     justify-content: center;
-    margin-left: 3px;
     margin-top: 150px;
   }
   .tapa {
     max-width: 200px;
     max-height: 200px;
     margin: auto;
+    margin-top: 25px;
   }
   .subtitulo {
     margin-top: 15px;
